@@ -47,7 +47,7 @@ public class Kelas {
 
     private Long price;
 
-    private Boolean isFinished;
+    private Boolean isFinished = false;
 
     @OneToMany(mappedBy = "kelas")
     @JsonIgnore
